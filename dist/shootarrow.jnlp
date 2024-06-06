@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="shootarrow.jnlp">
+  <information>
+    <title>shootarrow</title>
+    <vendor>Administrator</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" java-vm-args="--add-exports javafx.graphics/com.sun.glass.ui=ALL-UNNAMED "  href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="shootarrow.jar" size="1018388" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="shootarrow.Shootarrow"  name="shootarrow" />
+  <update check="always"/>
+</jnlp>
